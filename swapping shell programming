@@ -1,0 +1,12 @@
+echo "Enter the value of A: "
+read a
+
+echo "Enter the value of B: "
+read b
+
+echo "Before swapping: A=$a, B=$b"
+
+# Swapping the values of a and b
+temp=$a
+a=$b
+b=$temp
